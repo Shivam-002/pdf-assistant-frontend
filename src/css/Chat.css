@@ -1,0 +1,13 @@
+.chat-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 165px 0 165px;
+
+  gap: 10px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c5c5c5 transparent;
+  justify-content: center;
+}
